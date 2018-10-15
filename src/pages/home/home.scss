@@ -1,0 +1,55 @@
+page-home {
+
+    .container{
+        height: 350px;
+        display: inline;
+
+    }
+    img{
+       
+        display:block;
+     
+        opacity: 0.9;
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .data{
+        font-size: 10px;
+        letter-spacing: 11px;
+        padding-left: 50px; ;
+    }
+    .bg{
+        background: url('../../assets/imgs/orig.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      
+        
+    }
+
+    .namex{
+        margin-top: 30%;
+       font-size: 40px;
+      
+    }
+    hr{
+       
+        border: 1px solid white;
+    }
+
+    .degree{
+        font-size: 50px;
+    }
+    .y{
+        letter-spacing: 11px;
+    }
+    .buttonx{
+        float: left;
+    }
+    .icon{
+   
+    }
+}

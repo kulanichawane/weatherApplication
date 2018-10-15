@@ -1,0 +1,30 @@
+<!--
+  Generated template for the SecondPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>second</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg"> 
+<ion-input placeholder="City" [(ngModel)]=name ></ion-input>
+<button ion-button (click)="next()">search</button>
+<ion-list>
+  <ion-item  class="ion-itemx" (click)="nextd()">
+    Durban
+  </ion-item><br>
+  <ion-item class="ion-itemx" (click)="nextj()"> 
+      Johanessburg
+    </ion-item><br>
+    <ion-item class="ion-itemx" (click)="nextc()">
+       Cape Town
+      </ion-item>
+</ion-list>
+</ion-content>
